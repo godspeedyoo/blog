@@ -1,10 +1,10 @@
-title: "blog title"
-author: "Blog Author"
-description: "Really cool blog about ... something"
+title: "Turning Ideas into Code"
+author: "Joseph Won"
+description: "Learn to be a better developer"
 #subheading: "Really cool blog about ... something"
 more: "read more"
-url: "http://niklabs.me"
-baseurl: "/contrast" # comment out if in root directory
+url: "http://josephwondev.com"
+baseurl: "/blog" # comment out if in root directory
 
 comments:
     disqus: "niklasbuschmann"
@@ -23,12 +23,8 @@ style:
         even: "#222222"
 
 links:
-  - github: "https://github.com/me/"
-  - twitter: "https://twitter.com/me/"
-  - google-plus: "https://plus.google.com/+me"
-  - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/me"
-  - steam: "http://steamcommunity.com/id/me/"
+  - github: "https://github.com/godspeedyoo/"
+  - twitter: "https://twitter.com/godspeedyoo/"
 
 excerpt_separator: "\n\n\n"
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
