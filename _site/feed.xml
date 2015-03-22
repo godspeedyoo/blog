@@ -5,8 +5,8 @@
     <description>Learn to be a better developer</description>
     <link>http://josephwondev.com/blog</link>
     <atom:link href="http://josephwondev.com/blogfeed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Mar 2015 21:55:33 -0700</pubDate>
-    <lastBuildDate>Sat, 21 Mar 2015 21:55:33 -0700</lastBuildDate>
+    <pubDate>Sat, 21 Mar 2015 21:59:17 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Mar 2015 21:59:17 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -36,19 +36,20 @@
 
 &lt;p&gt;See the blue area in the middle? That’s where the content goes, whether it is colored space, text, or even an image. Let’s take one step outside of it, here we venture into padding. If we have two blocks of content (let’s call each of these a block), padding is the space that surrounds it, but we can’t see this space. One more important thing about padding is that it affects our border.&lt;/p&gt;
 
-&lt;p&gt;Borders show an outline of our block element, and we can control its color, size, and type of line.
-&lt;img src=&quot;img/border-code.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Borders show an outline of our block element, and we can control its color, size, and type of line.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://josephwondev.com/blog/img/border-code.png&quot; alt=&quot;border-code&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Margin is like padding, but on the other side of our border. It acts like our second invisible space that can be as big or as small as we want. Oh, and all three of these attributes and be set to 0.&lt;/p&gt;
 
 &lt;p&gt;If we ever need to, we can control any of margin, border, or padding in any of the four sides of our block. Here’s a snippet of code - kind of redundant to type it out each time, right? We only need to say it once for margin, and it means the same thing here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;img/margin-code.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://josephwondev.com/blog/img/margin-code.png&quot; alt=&quot;margin-code&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 18 Oct 2014 00:00:00 -0700</pubDate>
-        <link>http://josephwondev.com/concepts/2014/10/18/example-2.html</link>
-        <guid isPermaLink="true">http://josephwondev.com/blog/concepts/2014/10/18/example-2.html</guid>
+        <link>http://josephwondev.com/concepts/2014/10/18/margin-border-padding.html</link>
+        <guid isPermaLink="true">http://josephwondev.com/blog/concepts/2014/10/18/margin-border-padding.html</guid>
         
         
         <category>concepts</category>

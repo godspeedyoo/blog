@@ -11,11 +11,12 @@ CSS allows us to control the size, shape, placement, and much more of anything i
 See the blue area in the middle? That's where the content goes, whether it is colored space, text, or even an image. Let's take one step outside of it, here we venture into padding. If we have two blocks of content (let's call each of these a block), padding is the space that surrounds it, but we can't see this space. One more important thing about padding is that it affects our border.
 
 Borders show an outline of our block element, and we can control its color, size, and type of line.
-![](img/border-code.PNG)
+
+![border-code]({{site.url}}/blog/img/border-code.png)
 
 Margin is like padding, but on the other side of our border. It acts like our second invisible space that can be as big or as small as we want. Oh, and all three of these attributes and be set to 0.
 
 If we ever need to, we can control any of margin, border, or padding in any of the four sides of our block. Here's a snippet of code - kind of redundant to type it out each time, right? We only need to say it once for margin, and it means the same thing here:
                 
-![](img/margin-code.PNG)
+![margin-code]({{site.url}}/blog/img/margin-code.png)
 
