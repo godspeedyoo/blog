@@ -30,61 +30,22 @@
     
     <article>
       <header>
-        <h2><a href="/blog/example/2014/09/10/post.html">Example</a></h2>
-        <p><time datetime="2014-09-10T15:37:00-07:00">Sep 10, 2014</time> • example</p>
+        <h2><a href="/blog/concepts/2015/03/18/post.html">Version Control with Git</a></h2>
+        <p><time datetime="2015-03-18T00:00:00-07:00">Mar 18, 2015</time> • concepts</p>
       </header>
       <div>
-<p><strong>Basic</strong></p>
+<p>Have you ever saved backups as different files, maybe numbered according to its iteration? What about the need to go back to a certain point in time because you later discover you went down the wrong path?  Well, it looks like these issues can be taken care of by git - a wonderful version control system. Before I go into what git is, I’d like to elaborate on version control itself.</p>
 
-<p>Neque porro <em>quisquam</em> est, qui <strong>dolorem</strong> ipsum, quia <strong><em>dolor</em></strong> sit, amet, <a href="http://cjdns.info/">consectetur</a>, adipisci velit.</p>
+<p>Whenever we work on something complex, we always run the risk of going down a path we later deem to be wrong. One solution is to have a safety net to allow you to revert to a working version. Git allows us to navigate through a shroud of history, where we see a story of how our final product was pieced together. It allows you to store snapshots of your work at different times during its development, from start to finish.</p>
 
-<ul>
-  <li>lorem</li>
-  <li>ipsum</li>
-</ul>
+<p>Git won’t store the entire project or file as another copy. Instead, when you make any change at all, it will store that change specifically. In other words, it has the ability to compartmentalize changes done to a file rather than stored an entirely new copy of the file itself. These changes or save-states are referred to as <em>commits</em>.</p>
 
-<ol>
-  <li>dolor</li>
-  <li>sit</li>
-</ol>
-
-<table>
-  <thead>
-    <tr>
-      <th>First Header</th>
-      <th>Second Header</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Table Cell</td>
-      <td>Table Cell</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>Blockquote</strong></p>
-
-<blockquote>
-  <p>They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.</p>
-
-  <p><em>Benjamin Franklin</em></p>
-</blockquote>
-
-<p><strong>Code</strong></p>
-
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">asyncEnabled</span><span class="p">(</span><span class="n">Dict</span><span class="o">*</span> <span class="n">args</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">vAdmin</span><span class="p">,</span> <span class="n">String</span><span class="o">*</span> <span class="n">txid</span><span class="p">,</span> <span class="k">struct</span> <span class="n">Allocator</span><span class="o">*</span> <span class="n">requestAlloc</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span> <span class="n">admin</span> <span class="o">=</span> <span class="n">Identity_check</span><span class="p">((</span><span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span><span class="p">)</span> <span class="n">vAdmin</span><span class="p">);</span>
-    <span class="kt">int64_t</span> <span class="n">enabled</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-&gt;</span><span class="n">asyncEnabled</span><span class="p">;</span>
-    <span class="n">Dict</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dict_CONST</span><span class="p">(</span><span class="n">String_CONST</span><span class="p">(</span><span class="s">&quot;asyncEnabled&quot;</span><span class="p">),</span> <span class="n">Int_OBJ</span><span class="p">(</span><span class="n">enabled</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
-    <span class="n">Admin_sendMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="n">txid</span><span class="p">,</span> <span class="n">admin</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
+<p>What Git allows you to do locally, on your computer, GitHub allows for this version control system to be done over the internet. In fact, it provides value as a central location where many developers can connect, fork (create a copy), pull or push their code. Essentially, GitHub allows for a team of developers to see others’ changes, obtain a working copy to work from, and suggest their own changes from all over the world. You don’t even need to maintain an online connection to do work. GitHub allows you to store the latest snapshot locally, and, when you’re ready, compare your suggested changes with the latest version of the project.</p>
 
 
       </div>
       <footer>
-        <p><a href="/blog/example/2014/09/10/post.html">read more &raquo;</a></p>
+        <p><a href="/blog/concepts/2015/03/18/post.html">read more &raquo;</a></p>
       </footer>
     </article>
     
